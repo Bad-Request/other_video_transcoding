@@ -1225,7 +1225,7 @@ Requires `ffprobe`, `ffmpeg` and `mkvpropedit`.
         *get_audio_options(media_info),
         *get_subtitle_options(media_info, burn_subtitle),
         '-metadata:g', 'title=',
-        *(@format == :mkv ? ['-default_mode', 'passthrough'] : ['-movflags', 'disable_chpl']),
+        *(@format == :mkv ? ['-default_mode', 'passthrough'] : ['-movflags', 'disable_chpl+faststart']),
         output_path
       ]
 
