@@ -1,6 +1,8 @@
+
+
 # Other Video Transcoding
 
-Other tools to transcode videos.
+Other tools to transcode videos. Tweaked for my own needs, based on the original tool by Lisa Melton. The original readme is below.
 
 ## About
 
